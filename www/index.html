@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+ 	<!-- build:css dist_css/styles.css -->
+	<link href="css/fonts/font.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/ionic.app.css" rel="stylesheet">
+	<!-- endbuild -->
+ 
+    <!-- ionic/angularjs js -->  
+
+	<!-- build:js dist_js/lib.js -->
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+	<script src="lib/angular-translate/angular-translate.min.js"></script>
+	<script src="lib/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>	
+
+	<script src="lib/angular/angular.min.js"></script>
+
+	<!-- endbuild -->
+	
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script> 
+	  
+	<!-- build:js dist_js/app.js -->
+	<script src="dist/dist_js/app/app/app.js"></script> 
+	<script src="dist/dist_js/app/app/appConfig.js"></script> 
+	
+	<!--------------FACTORY------------------------------------------>
+	<script src="dist/dist_js/app/factory/constants.js"></script>
+	<script src="dist/dist_js/app/factory/messageService.js"></script>
+	<script src="dist/dist_js/app/factory/userSessionDataFactory.js"></script>
+	<script src="dist/dist_js/app/factory/decServiceFactory.js"></script>
+	<script src="dist/dist_js/app/factory/utilitiesFactory.js"></script>
+	<script src="dist/dist_js/app/factory/validationFactory.js"></script>
+	<script src="dist/dist_js/app/factory/commonFilters.js"></script>
+	<script src="dist/dist_js/app/factory/directive.js"></script>
+	
+	<!-- ------------SERVICES---------------------------------------- -->
+	<script src="dist/dist_js/app/factory/decServiceFactory.js"></script>
+	<!--------------END------------------------------------------>
+
+	<!--------------SERVICES------------------------------------------>
+	<script src="dist/dist_js/app/login/service/loginService.js"></script>
+	
+	<!--------------CONTROLLERS------------------------------------------>	
+	
+	<script src="dist/dist_js/app/login/controllers/loginController.js"></script>
+	<script src="dist/dist_js/app/splash/controllers/splashController.js"></script>
+
+	<!-- endbuild -->
+  
+
+	<!-- build:js dist_js/templates.js -->
+	<script src="dist/dist_js/app/templates.js"></script> 
+	<!-- endbuild -->
+	
+
+  </head>
+  <body ng-app="starter" ng-class="bg" ng-strict-di>
+
+    <ion-nav-view >
+    
+    </ion-nav-view>
+  </body>
+</html>

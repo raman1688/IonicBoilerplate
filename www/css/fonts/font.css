@@ -1,0 +1,75 @@
+@font-face{
+	font-family: 'ooredoo-Regular';
+	src: local('ooredoo-Regular'), url('../fonts/ooredoo-Regular.ttf') format('truetype');
+}
+.ooredoo-Regular {
+	font-family: 'ooredoo-Regular';
+}
+
+
+@font-face{
+	font-family: 'ooredoo-Bold';
+	src: local('ooredoo-Bold'), url('../fonts/ooredoo-Bold.ttf') format('truetype');
+}
+.ooredoo-Bold {
+	font-family: 'ooredoo-Bold' !important;
+} 
+
+
+@font-face{
+	font-family: 'ooredoo-Light';
+	src: local('ooredoo-Light'), url('../fonts/ooredoo-Light.ttf') format('truetype');
+}
+
+.ooredoo-Light {
+	font-family: 'ooredoo-Light' !important;
+} 
+
+@font-face{
+	font-family: 'FuturaStd-Bold';
+	src: local('FuturaStd-Bold'), url('../fonts/FuturaStd-Bold.otf') format('truetype');
+}
+
+.FuturaStd-Bold {
+	font-family: 'FuturaStd-Bold' !important;
+} 
+
+@font-face{
+	font-family: 'FuturaStd-Heavy';
+	src: local('FuturaStd-Heavy'), url('../fonts/FuturaStd-Heavy.otf') format('truetype');
+}
+
+.FuturaStd-Heavy {
+	font-family: 'FuturaStd-Heavy' !important;
+} 
+
+@font-face{
+	font-family: 'FuturaStd-Medium';
+	src: local('FuturaStd-Medium'), url('../fonts/FuturaStd-Medium.otf') format('truetype');
+}
+
+.FuturaStd-Medium {
+	font-family: 'FuturaStd-Medium' !important;
+}
+
+@font-face{
+	font-family: 'FuturaStd-Light';
+	src: local('FuturaStd-Light'), url('../fonts/FuturaStd-Light.otf') format('truetype');
+}
+
+.FuturaStd-Light {
+	font-family: 'FuturaStd-Light' !important;
+}
+
+@font-face{
+	font-family: 'FuturaStd-Book';
+	src: local('FuturaStd-Book'), url('../fonts/FuturaStd-Book.otf') format('truetype');
+}
+
+.FuturaStd-Book {
+	font-family: 'FuturaStd-Book' !important;
+}
+@font-face{
+	font-family: 'arial-black';
+	src: local('arial-black'), url('../fonts/arial-black.ttf') format('truetype');
+}

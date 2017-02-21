@@ -1,0 +1,22 @@
+/* Empty. Add your own CSS if you like */
+html, body{
+	font-family: 'ooredoo-Regular !important';
+	font-size: 1em !important;
+}
+
+.custom-class .popup-head {
+ display: none;
+}
+.popup-container.active .popup {
+	background-color: #fefefe;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: 'FuturaStd';
+	width: 54% !important;
+
+}
+.popup-container.active .popup  .mini-font{
+    font-size: 1em !important;
+}
+
+
